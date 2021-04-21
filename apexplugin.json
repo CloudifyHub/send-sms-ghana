@@ -1,0 +1,36 @@
+{
+  "name" : "GuidedTour",
+  "version" : "1.0",
+  "description" : "SEND SMS ONLY TO CONTACTS IN GHANA - WEST AFRICA",
+  "keywords" : ["guide", "tour", "shepherd", "firstrun"],
+  "homepage" : "https://github.com/CloudifyHub/send-sms-ghana/",
+  "bugs" : {
+    "url" : "",
+    "email" : "richmond@cloudifyhub.com"
+  },
+  "license" : "MIT",
+  "commercial" : "No",
+  "author" : {
+    "name" : "Richmond Asamoah",
+    "email" : "richmond@cloudifyhub.com",
+    "url" : "https://cloudifyhub.com/"
+    "twitter" : "Asamoah_Ritchie"
+    "donationUrl" : "https://paystack.com/pay/yl1m22giyn"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/CloudifyHub/send-sms-ghana.git"
+  },
+  "oracle" : {
+    "versions" : ["19", "21"],
+    "apex" : {
+      "versions" : ["20.0.2"],
+      "plugin" : {
+        "internalName" : "SEND SMS_GHANA",
+        "type" : "PROCESS",
+        "demo" : "https://apex.oracle.com/pls/apex/cloudify/r/send-sms-plugin-ghana/",
+        "previewImage" : "https://raw.githubusercontent.com/Dani3lSun/apex-plugin-guidedtour/master/preview.png"
+      }
+    }
+  }
+}
